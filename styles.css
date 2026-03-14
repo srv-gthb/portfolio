@@ -1,61 +1,26 @@
-/* Container */
+/* Container styling */
 .projects-grid {
-        display: flex;
-            flex-wrap: wrap;
-                gap: 20px;
-                    padding: 20px; /* Moved padding here */
-}
-
-/* The actual Box styling */
-.project-box {
-        display: block;
-            width: 300px;
+    display: flex;
+        flex-wrap: wrap;
+            gap: 20px;
                 padding: 20px;
-                    border: 1px solid #ddd;
-                        border-radius: 8px;
-                            text-decoration: none;
-                                color: #333;
-                                    background-color: #fff;
-                                        transition: all 0.3s ease;
-                                            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
+                }
 
-.project-box:hover {
-        border-color: #007bff;
-            transform: translateY(-5px);
-                box-shadow: 0 8px 15px rgba(0,0,0,0.2);
-}
-
-.project-box h3 {
-        margin-top: 0;
-            color: #007bff;
-}
-
-.right-header {
-        display: flex;
-            gap: 15px;
-                padding: 10px;
-                    justify-content: flex-end; /* Keeps them on the right side */
-                    }
-
-                    .nav-button {
-                        display: inline-block;
-                            padding: 8px 16px;
+                /* Box styling - MUST be outside the grid brackets */
+                .project-box {
+                    display: block;
+                        width: 300px;
+                            padding: 20px;
                                 border: 1px solid #ddd;
-                                    border-radius: 6px;
+                                    border-radius: 8px;
                                         text-decoration: none;
                                             color: #333;
-                                                font-size: 14px;
-                                                    background-color: #fff;
-                                                        transition: all 0.2s ease;
-                                                            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-                                                            }
+                                                background-color: #fff;
+                                                    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                                                    }
 
-                                                            .nav-button:hover {
-                                                                border-color: #007bff;
-                                                                    color: #007bff;
-                                                                        background-color: #f8fbff;
-                                                                            transform: translateY(-2px);
-                                                                            }
-                                                                            
-}
+                                                    .project-box h3 {
+                                                        margin: 0 0 10px 0;
+                                                            color: #007bff;
+                                                            }
+                                                            
