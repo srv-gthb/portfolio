@@ -31,7 +31,31 @@
             color: #007bff;
 }
 
-}
-}
-}
+.right-header {
+        display: flex;
+            gap: 15px;
+                padding: 10px;
+                    justify-content: flex-end; /* Keeps them on the right side */
+                    }
+
+                    .nav-button {
+                        display: inline-block;
+                            padding: 8px 16px;
+                                border: 1px solid #ddd;
+                                    border-radius: 6px;
+                                        text-decoration: none;
+                                            color: #333;
+                                                font-size: 14px;
+                                                    background-color: #fff;
+                                                        transition: all 0.2s ease;
+                                                            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+                                                            }
+
+                                                            .nav-button:hover {
+                                                                border-color: #007bff;
+                                                                    color: #007bff;
+                                                                        background-color: #f8fbff;
+                                                                            transform: translateY(-2px);
+                                                                            }
+                                                                            
 }
