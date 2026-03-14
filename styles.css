@@ -1,0 +1,28 @@
+.projects {
+        display: flex; /* Use flexbox to arrange boxes side-by-side or stacked */
+            gap: 20px; /* Adds space between the boxes */
+                flex-wrap: wrap; /* Allows boxes to wrap to the next line if needed */
+                }
+
+                .box-link {
+                    display: block; /* Makes the anchor tag a block, so it can have width/height and fill its container */
+                        text-decoration: none; /* Removes the default anchor underline */
+                            color: inherit; /* Inherit color from parent or define a new one */
+                                border: 1px solid #ccc; /* Add a border to make it look like a box */
+                                    padding: 15px; /* Add internal spacing */
+                                        width: 200px; /* Set a specific width or use flex properties like flex: 1 */
+                                            box-sizing: border-box; /* Ensures padding/border is included in the width */
+                                                transition: background-color 0.3s; /* Smooth background color transition */
+                                                }
+
+                                                .box-link:hover {
+                                                    background-color: #f0f0f0; /* Hover effect */
+                                                    }
+
+                                                    .box-content h2, 
+                                                    .box-content p {
+                                                        margin: 0; /* Remove default margins from inner elements */
+                                                            padding: 0;
+                                                            }
+
+}
