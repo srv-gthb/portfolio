@@ -1,4 +1,4 @@
-/* First block: The Grid */
+/* The Grid */
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +6,7 @@
     padding: 20px;
     }
 
-/* Second block: The Box (NOT inside the first block!) */
+/* The Box */
 .project-box, .nav-button {
     display: inline-block;
     padding: 20px;
@@ -93,7 +93,7 @@
     background: #eee;
     border-radius: 10px;
     overflow: hidden;
-    margin-top: 5px;
+    margin-top: 5px;}
                                                                                                       
 .progress {
     height: 100%;
