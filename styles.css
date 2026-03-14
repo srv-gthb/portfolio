@@ -107,8 +107,8 @@
         padding: 50px 20px;
         }
 
-        /* 2. Grid - Separate block */
-        .contact-grid {
+/* 2. Grid - Separate block */
+.contact-grid {
             display: flex;
                 justify-content: center;
                     gap: 20px;
@@ -116,8 +116,8 @@
                             margin-top: 30px;
                             }
 
-                            /* 3. Item - Separate block */
-                            .contact-item {
+/* 3. Item - Separate block */
+.contact-item {
                                 background: white;
                                     border: 1px solid #ddd;
                                         border-radius: 12px;
@@ -129,8 +129,8 @@
                                                                 color: inherit;
                                                                 }
 
-                                                                /* 4. Copy Button - Separate block */
-                                                                .copy-btn {
+/* 4. Copy Button - Separate block */
+.copy-btn {
                                                                     background: #007bff;
                                                                         color: white;
                                                                             border: none;
