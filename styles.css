@@ -101,13 +101,13 @@
     border-radius: 10px
     }
 
-/* 1. Container - Close it after padding */
+/* 1. Container - */
 .contact-container {
     text-align: center;
     padding: 50px 20px;
     }
 
-/* 2. Grid - Separate block */
+/* 2. Grid - */
 .contact-grid {
     display: flex;
     justify-content: center;
@@ -116,7 +116,7 @@
     margin-top: 30px;
     }
 
-/* 3. Item - Separate block */
+/* 3. Item - */
 .contact-item {
     background: white;
     border: 1px solid #ddd;
@@ -129,7 +129,7 @@
     color: inherit;
     }
 
-/* 4. Copy Button - Separate block */
+/* 4. Copy Button */
 .copy-btn {
     background: #007bff;
     color: white;
