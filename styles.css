@@ -104,50 +104,50 @@
 /* 1. Container - Close it after padding */
 .contact-container {
     text-align: center;
-        padding: 50px 20px;
-        }
+    padding: 50px 20px;
+    }
 
 /* 2. Grid - Separate block */
 .contact-grid {
-            display: flex;
-                justify-content: center;
-                    gap: 20px;
-                        flex-wrap: wrap;
-                            margin-top: 30px;
-                            }
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    }
 
 /* 3. Item - Separate block */
 .contact-item {
-                                background: white;
-                                    border: 1px solid #ddd;
-                                        border-radius: 12px;
-                                            padding: 30px;
-                                                width: 250px;
-                                                    transition: all 0.3s ease;
-                                                        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-                                                            text-decoration: none;
-                                                                color: inherit;
-                                                                }
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 30px;
+    width: 250px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    text-decoration: none;
+    color: inherit;
+    }
 
 /* 4. Copy Button - Separate block */
 .copy-btn {
-                                                                    background: #007bff;
-                                                                        color: white;
-                                                                            border: none;
-                                                                                padding: 8px 15px;
-                                                                                    border-radius: 5px;
-                                                                                        cursor: pointer;
-                                                                                            margin-top: 10px;
-                                                                                            }
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    }
                                                                                             
     
 .status-badge {
-            background-color: #28a745;
-                color: white;
-                    font-size: 10px;
-                        padding: 2px 8px;
-                            border-radius: 10px;
-                                text-transform: uppercase;
-                                    font-weight: bold;
-                                        float: right;
-                                        }
+    background-color: #28a745;
+    color: white;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+    }
