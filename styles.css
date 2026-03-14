@@ -101,60 +101,47 @@
     border-radius: 10px
     }
 
-    .contact-container {
-            text-align: center;
-                padding: 50px 20px;
-                }
+/* 1. Container - Close it after padding */
+.contact-container {
+    text-align: center;
+        padding: 50px 20px;
+        }
 
-                .contact-grid {
-                    display: flex;
-                        justify-content: center;
-                            gap: 20px;
-                                flex-wrap: wrap;
-                                    margin-top: 30px;
-                                    }
+        /* 2. Grid - Separate block */
+        .contact-grid {
+            display: flex;
+                justify-content: center;
+                    gap: 20px;
+                        flex-wrap: wrap;
+                            margin-top: 30px;
+                            }
 
-                                    .contact-item {
-                                        background: white;
-                                            border: 1px solid #ddd;
-                                                border-radius: 12px;
-                                                    padding: 30px;
-                                                        width: 250px;
-                                                            transition: all 0.3s ease;
-                                                                box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-                                                                    text-decoration: none; /* For the links */
-                                                                        color: inherit;
-                                                                        }
+                            /* 3. Item - Separate block */
+                            .contact-item {
+                                background: white;
+                                    border: 1px solid #ddd;
+                                        border-radius: 12px;
+                                            padding: 30px;
+                                                width: 250px;
+                                                    transition: all 0.3s ease;
+                                                        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+                                                            text-decoration: none;
+                                                                color: inherit;
+                                                                }
 
-                                                                        .link-item:hover {
-                                                                            border-color: #007bff;
-                                                                                transform: translateY(-5px);
-                                                                                    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-                                                                                    }
-
-                                                                                    .contact-item .material-symbols-outlined {
-                                                                                        font-size: 48px;
-                                                                                            color: #007bff;
-                                                                                                margin-bottom: 15px;
-                                                                                                }
-
-                                                                                                .copy-btn {
-                                                                                                    background: #007bff;
-                                                                                                        color: white;
-                                                                                                            border: none;
-                                                                                                                padding: 8px 15px;
-                                                                                                                    border-radius: 5px;
-                                                                                                                        cursor: pointer;
-                                                                                                                            margin-top: 10px;
-                                                                                                                            }
-
-                                                                                                                            .copy-btn:hover {
-                                                                                                                                background: #0056b3;
-                                                                                                                                }
-                                                                                                                                
-    }
-
-    .status-badge {
+                                                                /* 4. Copy Button - Separate block */
+                                                                .copy-btn {
+                                                                    background: #007bff;
+                                                                        color: white;
+                                                                            border: none;
+                                                                                padding: 8px 15px;
+                                                                                    border-radius: 5px;
+                                                                                        cursor: pointer;
+                                                                                            margin-top: 10px;
+                                                                                            }
+                                                                                            
+    
+.status-badge {
             background-color: #28a745;
                 color: white;
                     font-size: 10px;
