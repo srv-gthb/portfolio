@@ -8,32 +8,42 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <div class="right-header">
-            <a href="../index.html" class="nav-button">Home</a>
-                <a href="about.html" class="nav-button">About</a>
-                </div>
+    <div class="contact-container">
+            <h1 class="contact-title">Contact</h1>
+                
+                    <div class="circle-row">
+                            <div class="contact-circle" onclick="copyDiscord()" style="cursor: pointer;">
+                                        <h3>Discord</h3>
+                                                    <p id="discord-user">0_iroy</p>
+                                                                <span style="font-size: 12px; color: #007bff;">Click to copy</span>
+                                                                        </div>
 
-                <div class="contact-container">
-                    <h1 class="contact-title">Contact</h1>
-                        
-                            <div class="circle-row">
-                                    <div class="contact-circle">
-                                                <h3>Discord</h3>
-                                                            <p>@ 0_iroy</p>
-                                                                    </div>
-                                                                            <a href="https://github.com/srv-gthb" target="_blank" class="contact-circle link-item">
-                                                                                        <h3>GitHub</h3>
-                                                                                                    <p>srv-6thb</p>
-                                                                                                            </a>
-                                                                                                                </div>
+                                                                                <a href="https://github.com/srv-gthb" target="_blank" class="contact-circle link-item">
+                                                                                            <h3>GitHub</h3>
+                                                                                                        <p>srv-6thb</p>
+                                                                                                                </a>
+                                                                                                                    </div>
 
-                                                                                                                    <div class="rectangle-row">
-                                                                                                                            <div class="contact-rectangle">
-                                                                                                                                        <h3>Email</h3>
-                                                                                                                                                    <p>mail @ celestial.qzz.io</p>
-                                                                                                                                                            </div>
-                                                                                                                                                                </div>
-                                                                                                                                                                </div>
-
+                                                                                                                        <div class="rectangle-row">
+                                                                                                                                <a href="mailto:mail@celestial.qzz.io" class="contact-rectangle" style="text-decoration: none; color: inherit; display: block;">
+                                                                                                                                            <h3>Email</h3>
+                                                                                                                                                        <p>mail@celestial.qzz.io</p>
+                                                                                                                                                                    <span style="font-size: 12px; color: #007bff;">Click to send email</span>
+                                                                                                                                                                            </a>
+                                                                                                                                                                                </div>
+                                                                                                                                                                                </div>
+<script>
+    function copyDiscord() {
+        // Get the text from the paragraph
+            const text = "0_iroy";
+                
+                    // Copy to clipboard
+                        navigator.clipboard.writeText(text).then(() => {
+                                alert("Discord username copied: " + text);
+                                    }).catch(err => {
+                                            console.error('Failed to copy: ', err);
+                                                });
+                                                }
+                                                </script>
 </body>
 </html>
